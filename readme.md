@@ -3,7 +3,7 @@ Updated: Jul 18, 2016 by Ray Lai, Masaki Kakoi
 
 The GMAT orbit trajectory simulation can be used to generate telemetry data for Quindar or for orbit simulation independent of any software. This build uses Docker for containerization and adds integration with REST API, RabbitMQ and webSockets using Python.
 
-## Step-by-step quide to build General Mission Analysis Tool: Linux version
+## Step-by-step guide to build General Mission Analysis Tool: Linux version
 1. Login to the server and go to the directory where you want to build GMAT
 1. Download GMAT-src-R2015a-Mac-Linux-Bug-Fixes.tar.gz by typing the following commands:
   * sudo wget "https://sourceforge.net/projects/gmat/files/GMAT/GMAT-R2015a/GMAT-src-R2015a-Mac-Linux-Bug-Fixes.tar.gz"
@@ -59,7 +59,7 @@ The GMAT orbit trajectory simulation can be used to generate telemetry data for 
   * Test if GMAT runs:
   * e.g. sudo ./GmatConsole ../samples/Ex_Attitude_VNB.script
   
-## Step-by-step quide to connect Python to General Mission Analysis Tool: Linux version
+## Step-by-step guide to connect Python to General Mission Analysis Tool: Linux version
 1. Find where Python.h is located:
   * find / -name Python.h
 1. Open CMakeCache.txt.  This file is located in the same directory as CMakeList.txt under GMAT_R2015a.
