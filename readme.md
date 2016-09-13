@@ -79,7 +79,7 @@ The GMAT orbit trajectory simulation can be used to generate telemetry data for 
   * sudo make
 1. After GMAT is successfully build, GMAT should be able to call Python functions: e.g.,
   * From GMAT-R2015a, go into application/userfunctions/python
-  * Download necessary files: git clone https://github.com/audacyDevOps/quindar-gmat.git
+  * Download necessary files: git clone https://github.com/quindar/quindar-gmat.git
   * Copy files from quindar-gmat to python: sudo cp -r quindar-gmat/* .
   * Go to /application/bin and type ./GMAT to open GMAT.
   * Open DataGeneration.script from /application/userfunctions/python
