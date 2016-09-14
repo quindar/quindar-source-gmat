@@ -1,4 +1,4 @@
-# quindar-gmat
+# quindar-source-gmat
 Updated: Jul 18, 2016 by Ray Lai, Masaki Kakoi
 
 The GMAT orbit trajectory simulation can be used to generate telemetry data for Quindar or for orbit simulation independent of any software. This build uses Docker for containerization and adds integration with REST API, RabbitMQ and webSockets using Python.
@@ -79,8 +79,8 @@ The GMAT orbit trajectory simulation can be used to generate telemetry data for 
   * sudo make
 1. After GMAT is successfully build, GMAT should be able to call Python functions: e.g.,
   * From GMAT-R2015a, go into application/userfunctions/python
-  * Download necessary files: git clone https://github.com/quindar/quindar-gmat.git
-  * Copy files from quindar-gmat to python: sudo cp -r quindar-gmat/* .
+  * Download necessary files: git clone https://github.com/quindar/quindar-source-gmat.git
+  * Copy files from quindar-source-gmat to python: sudo cp -r quindar-source-gmat/* .
   * Go to /application/bin and type ./GMAT to open GMAT.
   * Open DataGeneration.script from /application/userfunctions/python
   * Run GMAT by clicking the run button.
